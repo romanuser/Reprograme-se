@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica Sugerida 10</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de cliente</h1>
+    </header><hr>
+    <main>
+        <form action="/cliente/cadastrar">
+            <p>
+                <label for="Nome">Nome</label><br>
+                <input type="text" name="Nome" id="txtNome" placeholder="Nome Completo"><br>
+            </p>
+            <p>
+                <label for="txtEmail">E-mail</label><br>
+                <input type="text" name="Email" id="txtEmail" placeholder="e-mail@ifes.com"><br>
+            </p>
+            <p>
+                <label for="txtPortifolio">URL Portifolio Online</label><br>
+                <input type="text" name="Portifolio" id="txtPortifolio" placeholder="LinkedIn; GitHub.."><br>
+            </p>
+            <p>
+                <label for="txtDate">Data de Nascimento</label><br>
+                <input type="date" name="Date" id="txtDate"><br>
+            </p>
+            <p>
+                <label for="txtDependentes">Qtde Dependentes</label><br>
+                <input type="text" name="Dependentes" id="txtDependente"><br>
+            </p>
+            <p>
+                <label for="txtCor">Cor Preferida</label><br>
+                <input type="color" name="Cor" id="txtCor"><br>
+            </p>
+            <p>
+                <label for="txtTel">Telefone</label><br>
+                <input type="text" name="tel" id="txtTel" placeholder="(27)9-9999-9999"><br>
+            </p>
+            <p>
+                <input type="checkbox" name="promocoes" value="P"> Receber Promoções <br>
+            </p>
+            <p>
+                <label for="txtUF">Estado</label><br>
+                <select name="UF" id="txtUF" list="UF" placeholder="Selecione...">
+                <datalist id="UF">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </datalist>
+                </select>
+            </p>
+            <p>
+                <label for="txtBiografia">Mini-Biografia</label><br>
+            <textarea name="Biografia" id="txtBiografia" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+</head>
+<body>
+    <header align="center">
+        <h1>Formulário para Orçamento - Pet Shop</h1>
+    </header><hr>
+    <main>
+        <form action="/contato/cotar" method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="NomeProprietario">Nome do Proprietário</label><br>
+                <input type="text" name="NomeProprietario" id="txtNomeProprietario" placeholder="Nome Completo"><br>
+                <label for="NomeProprietario">Nome do Animal</label><br>
+                <input type="text" name="NomeAnimal" id="txtNomeAnimal" placeholder="Nome do Animal">
+            </fieldset>
+        <fieldset>
+            <legend>Tipo de animal</legend>
+            <input type="radio" name="Animal" id="rdCachorro" value="Ca">
+            <label for="rdCachorro">Cachorro</label><br>
+            <input type="radio"  name="Animal" id="rdCoelho" value="Co">
+            <label for="rdCoelho">Coelho</label><br>
+            <input type="radio"  name="Animal" id="rdGato" value="Ga">
+            <label for="rdGato">Gato</label><br>
+            <input type="radio"  name="Animal" id="rdPassaro" value="P">
+            <label for="rsPassaro">Pássaro</label>
+        </fieldset>
+        <fieldset>
+            <legend>Serviços</legend>
+            <label for="TipoServico">Tipo de Serviço</label><br>
+            <input type="text" name="TipoServico" id="txtNomeProprietario"><br>
+            <label for="txtObservacoes">Observações</label><br>
+            <textarea name="Observacoes" id="txtObservacoes" cols="30" rows="10"></textarea>
+        </fieldset>
+        <p align="center">    
+            <input type="submit" value="Enviar">
+        </p>
+        
+    </form>
+    </main>
+</body>
+</html>
