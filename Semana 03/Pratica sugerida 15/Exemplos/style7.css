@@ -1,0 +1,25 @@
+div {
+    border: solid 1px black;
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: 0.7s;
+}
+
+#d1 {
+    background-color: blue;
+}
+
+#d2 {
+    background-color: yellow;
+}
+
+#d3 {
+    background-color: red;
+}
+
+div:hover {
+    opacity: 0.5;
+    transition: 0.7s;
+}
