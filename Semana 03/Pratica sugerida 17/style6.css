@@ -1,0 +1,21 @@
+div {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#d1 {
+    background-color: blue; 
+}
+
+/*#d1 {
+    background-color: blue; 
+    z-index:1;
+}*/
+
+#d2 {
+    background-color: blueviolet ;
+    left: 150px;
+    top: 150px;
+    z-index: -1;
+}

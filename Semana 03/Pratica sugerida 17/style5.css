@@ -1,0 +1,21 @@
+#d1, #d2 {
+    width: 500px;
+    height: 700px;
+}
+
+#d1 {
+    background-color: blue; 
+}
+
+#d2 {
+    background-color: blueviolet ;
+}
+
+#d3 {
+    background-color: rgb(243, 17, 17) ;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    bottom: 30px;
+    top: 30px;
+}
